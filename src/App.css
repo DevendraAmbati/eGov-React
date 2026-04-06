@@ -1,0 +1,18 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans', 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--white);
+    color: var(--text-main);
+    line-height: 1.6;
+    overflow-x: hidden; 
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
