@@ -1,6 +1,5 @@
 import { Routes, Route } from "react-router-dom";
 import { Suspense, lazy, useEffect, useState } from "react";
-import Loader from "./components/Loader";
 import Navbar from "./components/Navbar";
 import TopBar from "./components/TopBar";
 import Footer from "./components/Footer";
@@ -19,7 +18,7 @@ function App() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
-    <Suspense fallback={<Loader />}>
+    <Suspense >
       <TopBar />
       <Navbar scrolled={scrolled} />
       <Routes>
